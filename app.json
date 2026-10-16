@@ -1,0 +1,24 @@
+{
+  "app": {
+    "appId": 1500123,
+    "appName": "GoogleNewsIL",
+    "appType": "app",
+    "version": { "code": 1, "name": "1.0.0" },
+    "icon": "icon.png",
+    "vender": "moshe"
+  },
+  "runtime": {
+    "apiVersion": "3.7"
+  },
+  "targets": {
+    "Balance": {
+      "module": "app",
+      "deviceSource": 8519937,
+      "designWidth": 480,
+      "designHeight": 480,
+      "shape": "round"
+    }
+  },
+  "permissions": [],
+  "feedUrl": "https://news.google.com/rss?hl=iw&gl=IL&ceid=IL:iw"
+}
